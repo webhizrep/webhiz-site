@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.webhiz.com.br/sitemap.xml
