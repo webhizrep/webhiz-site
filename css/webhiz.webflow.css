@@ -70,6 +70,7 @@
   background-position: 50% 44%;
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .slide-2 {
@@ -380,7 +381,8 @@
   margin-top: 0px;
   padding-top: 0px;
   font-family: Montserrat, sans-serif;
-  font-size: 26px;
+  font-size: 20px;
+  text-align: left;
 }
 
 .par-servicos {
@@ -403,7 +405,7 @@
   font-family: Montserrat, sans-serif;
   font-size: 34px;
   font-style: italic;
-  text-align: center;
+  text-align: left;
 }
 
 .footer {
@@ -496,10 +498,34 @@
 
 .div-post {
   margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.col-post-txt {
+  padding-left: 0px;
+  text-align: left;
 }
 
 .par-post {
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: justify;
+}
+
+.block-quote-post {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.par-post {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.h4-post {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 .title-post {
@@ -606,6 +632,82 @@
   text-align: center;
 }
 
+.div-block-3 {
+  height: 100px;
+  margin-top: 50px;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding: 25px 10px;
+  border-radius: 10px;
+  background-color: #bbc2ba;
+}
+
+.paragraph-4 {
+  font-weight: 600;
+  text-align: center;
+}
+
+.div-block-4 {
+  height: 300px;
+  margin-top: 142px;
+  margin-left: 0px;
+  border-radius: 20px;
+  background-color: hsla(0, 0%, 85%, .89);
+  text-align: center;
+}
+
+.paragraph-5 {
+  margin-top: 0px;
+  padding-top: 82px;
+  font-family: 'Droid Sans', sans-serif;
+  color: #ff005c;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.paragraph-6 {
+  margin-top: 30px;
+  font-family: Bitter, serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.subtitle-post {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-top: 0px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.blockquote-post {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  font-family: Montserrat, sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+}
+
+.subtitle-post-1 {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+  text-align: left;
+  text-decoration: none;
+}
+
 @media (max-width: 991px) {
   .nav-menu {
     margin-right: 0px;
@@ -671,6 +773,9 @@
   .form-block-2 {
     width: 100%;
   }
+  .h2-post {
+    font-size: 20px;
+  }
   .heading {
     margin-bottom: 31px;
     padding-top: 16px;
@@ -679,6 +784,9 @@
   }
   .row-redes {
     padding-left: 63px;
+  }
+  .div-block-4 {
+    margin-top: 24px;
   }
 }
 
@@ -736,6 +844,9 @@
   .column-10 {
     margin-bottom: 10px;
   }
+  .contato {
+    padding-bottom: 81px;
+  }
   .form-block {
     margin-left: 103px;
   }
@@ -760,6 +871,24 @@
   .submit-button-2 {
     width: 400px;
   }
+  .div-blog {
+    margin-bottom: 30px;
+  }
+  .h2-post {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+  }
+  .linha-posts-blog {
+    margin-top: 0px;
+  }
+  .col-posts-blog {
+    display: block;
+    margin-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+  }
   .unordered-list-2 {
     text-align: center;
   }
@@ -774,9 +903,16 @@
     padding-right: 135px;
     padding-left: 0px;
   }
+  .div-block-4 {
+    margin-top: 2px;
+  }
 }
 
 @media (max-width: 479px) {
+  .nav-menu {
+    display: block;
+    text-align: center;
+  }
   .container {
     margin-left: 0px;
     float: right;
@@ -864,6 +1000,26 @@
     width: 90%;
     margin-left: 15px;
   }
+  .h2-post {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .div-post {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .col-post-img {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .col-post-txt {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .img-post {
+    height: 200px;
+    margin-bottom: 15px;
+  }
   .title-post {
     font-size: 30px;
   }
@@ -891,5 +1047,16 @@
     margin-left: 0px;
     padding-right: 114px;
     padding-bottom: 1px;
+  }
+  .div-block-4 {
+    margin-top: 1px;
+  }
+  .paragraph-5 {
+    padding-top: 26px;
+    font-size: 25px;
+  }
+  .paragraph-6 {
+    margin-top: 15px;
+    font-size: 18px;
   }
 }
