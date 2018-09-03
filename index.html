@@ -24,7 +24,9 @@ End Google Tag Manager -->
 
 
   <meta charset="utf-8">
-  <title>webhiz</title>
+  <title>Webhiz • Agência De Marketing Digital • Soluções em SEO</title>
+  <meta title="Webhiz • Agência De Marketing Digital • Soluções em SEO">
+  <meta description="Conheça as soluções em SEO que a Webhiz Agência de Marketing Digital tem a oferecer pra você!">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -73,6 +75,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="servicos">
     <div class="w-container">
+        
       <div class="servico">
         <h2 class="title">Conheça <br>nossas soluções</h2>
         <div class="w-row">
@@ -197,19 +200,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="form-block w-form">
             <form id="email-form" name="email-form" data-name="Email Form" method="POST" action="mail.php" class="form">
               <label for="name-2" class="label">Diga-nos seu nome:</label>
-              <input type="text" class="field w-input" maxlength="256" name="nome" data-name="Name 2" placeholder="Ex: João" id="name-2">
+              <input required type="text" class="field w-input" maxlength="256" name="nome" data-name="Name 2" placeholder="Ex: João" id="name-2">
 
               <label for="email-3" class="label">E um e-mail para contato:</label>
-              <input type="text" class="field w-input" maxlength="256" name="email" data-name="Email 3" placeholder="Ex: joaocarlos@gmail.com"
+              <input required type="text" class="field w-input" maxlength="256" name="email" data-name="Email 3" placeholder="Ex: joaocarlos@gmail.com"
                 id="email-3" required="">
 
               <label for="Telefone-3" class="label">Um telefone/celular:</label>
-              <input type="text" class="field w-input" maxlength="256" name="telefone" data-name="Telefone 3" placeholder="Ex: (11) 98656-0914"
+              <input required type="text" class="field w-input" maxlength="256" name="telefone" data-name="Telefone 3" placeholder="Ex: (11) 98656-0914"
                 id="Telefone-3" required="">
 
               <label for="Telefone-4" class="label">Se você tiver um site, escreva aqui:</label>
               <input type="text" class="field w-input" maxlength="256" name="website" data-name="Telefone 2" placeholder="Ex: www.webhiz.com.br"
-                id="Telefone-2" required="">
+                id="Telefone-2">
               <input type="submit" value="Entrar em Contato" data-wait="Please wait..." class="submit-button w-button">
             </form>
             <div class="w-form-done">
@@ -261,11 +264,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="w-row">
         <div class="w-col w-col-6">
           <div class="form-block-2 w-form">
-            <form id="email-form-2" name="email-form-2" data-name="Email Form 2" method="POST" class="form-2" action="mail-newsletter.php"><label for="nome"
-                class="field-label">Deixe seu E-mail e<br>Receba nossa newsletter</label><input type="text" class="text-field w-input"
-                maxlength="256" name="nome" data-name="nome" placeholder="Digite seu nome" id="nome" required=""><input type="text"
-                class="text-field w-input" maxlength="256" name="email" data-name="Email 2" placeholder="Digite seu email"
-                id="email-2" required=""><input type="submit" value="Enviar" data-wait="Please wait..." class="submit-button-2 w-button"></form>
+            <form id="email-form-2" name="email-form-2" data-name="Email Form 2" method="POST" class="form-2" action="mail-newsletter.php">
+              <label for="nome" class="field-label">Deixe seu E-mail e<br>Receba nossa newsletter</label>
+                <input required type="text" class="text-field w-input" maxlength="256" name="nome" data-name="nome" placeholder="Digite seu nome" id="nome" required="">
+                <input required type="text" class="text-field w-input" maxlength="256" name="email" data-name="Email 2" placeholder="Digite seu email" id="email-2">
+                <input type="submit" value="Enviar" data-wait="Please wait..." class="submit-button-2 w-button">
+              </form>
             <div class="w-form-done">
               <div>Thank you! Your submission has been received!</div>
             </div>
@@ -359,11 +363,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </ul>
         </div>
       </div>
+      
+     
       <hr>
       <br>
       <p style="color: white; font-family: Arial, Helvetica, sans-serif; font-size: 16px;">Entre em contato conosco também pelo 
       <br>
-        <a style="color: white;"href="tel:(11)986560914">(11) 9 8656-0914</a> | <a style="color: white;"href="tel:(11)969126318">(11) 9 6912-6318</a> </p>
+        <a style="color: white;"href="tel:(11)986560914">(11) 9 8656-0914</a>  
+        <a style="color: white;"href="tel:(11)969126318">(11) 9 6912-6318</a> </p>
     
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

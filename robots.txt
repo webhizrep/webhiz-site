@@ -1,3 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /mensagem-enviada.html
+Disallow: /submissao-recebida.html
 Sitemap: https://www.webhiz.com.br/sitemap.xml
